@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>grid_map_simpletest</name>
+  <version>0.0.0</version>
+  <description>The grid_map_simpletest package</description>
+  <maintainer email="trunc8@todo.todo">trunc8</maintainer>
+  <license>Apache</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>grid_map_core</exec_depend>
+  <exec_depend>grid_map_ros</exec_depend>
+  <exec_depend>grid_map_cv</exec_depend>
+  <exec_depend>grid_map_msgs</exec_depend>
+  <exec_depend>grid_map_filters</exec_depend>
+  <exec_depend>grid_map_visualization</exec_depend>
+  <exec_depend>grid_map_rviz_plugin</exec_depend>
+  <exec_depend>grid_map_loader</exec_depend>
+  <exec_depend>grid_map_demos</exec_depend>
+  
+</package>
