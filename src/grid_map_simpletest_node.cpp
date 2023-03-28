@@ -12,8 +12,6 @@ int main() {
 
     for( grid_map::GridMapIterator it(map); !it.isPastEnd(); ++it ) {
         grid_map::Position position;
-        std::cout << type_name<decltype(it)>() << "\t" << type_name<decltype(*it)>() << std::endl;
-        return;
         map.getPosition( *it, position );
         map.at( "elevation", *it ) = sin(position.x()) + exp(position.y());
         // std::cout << map.at( "elevation", *it ) << std::endl;
